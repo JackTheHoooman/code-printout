@@ -91,4 +91,4 @@ def prev_word_loc(line: str, location: int, max: int = 10) -> int:
 
 
 files_to_pdf(
-    ["test.txt", "example_code/Interaction.java", "example_code/Post.java", "example_code/Comment.java"], line_wrap=100)
+    ["test.txt", "example_code/Interaction.java", "example_code/Post.java", "example_code/Comment.java"], line_wrap=100, out_filename="test.pdf")
